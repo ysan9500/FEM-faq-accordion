@@ -1,0 +1,77 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    background-color: hsl(275, 100%, 97%);
+    background-image: url(./assets/images/background-pattern-mobile.svg);
+    background-repeat: no-repeat;
+    background-position-y: 0;
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+    
+}   
+
+.faq_container {
+    background-color: white;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 365px;
+    border-radius: 2%;
+    margin: 180px auto; /*places the container pn the center of the screen*/
+
+}
+
+.faq_container * {
+    padding: 0;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 7.5% auto 0% 7.5%;
+    justify-content: space-between;
+    gap: 15%;
+}
+
+.qna {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid hsl(275, 100%, 97%);
+    width: 85%;
+    align-items: center;
+    padding: 7.5% 0%;
+}
+
+.qna:last-child {
+    border-bottom: none;
+}
+
+.qna p {
+    display: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: hsl(292, 16%, 49%);
+    margin-top: 7.5%;
+}
+
+h2 {
+    display: block;
+    width: 70%;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+button {
+    border-style: none;
+    background-color: white;
+    cursor: pointer;
+    margin: 0;
+}
