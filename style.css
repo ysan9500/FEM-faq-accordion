@@ -72,11 +72,28 @@ h2 {
 }
 
 button {
+    position: relative;
     border-style: none;
     background-color: white;
     cursor: pointer;
-    margin: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
 }
+
+button img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: inherit;
+
+}
+
+
 
 @media only screen and (min-width: 500px) {
     body {
@@ -102,7 +119,12 @@ button {
 
     h2 {
         font-size: 20px;
-        width: 90%
+        width: 90%;
+        cursor: pointer;
+    }
+
+    h2:hover {
+        color: rgb(176,44,236);
     }
 
     .title {
